@@ -16,6 +16,7 @@
  * along with rxwspr. If not, see <http://www.gnu.org/licenses/>.
  */
 #include <QCoreApplication>
+#include <QCommandLineParser>
 #include <QDir>
 #include <QFileInfo>
 #include "rxwspr.h"
