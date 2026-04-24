@@ -20,12 +20,14 @@
 #include <QObject>
 #include <QCoreApplication>
 #include <QUdpSocket>
+#include <QNetworkInterface>
 #include <QFile>
 #include <QProcess>
 #include <QTimer>
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
 #include <QQueue>
+#include <QtMath>
 #include <time.h>
 #include "sunpropagator.h"
 
@@ -135,3 +137,4 @@ private slots:
     void networkReply(QNetworkReply *reply);
 };
 #endif
+
